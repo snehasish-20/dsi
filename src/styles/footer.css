@@ -1,0 +1,64 @@
+.footer
+{
+    width: 100%;
+}
+.footer-container
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px 100px;
+}
+.footer-container span
+{
+    display: block;
+}
+.address,.contact
+{
+    width: 25%;
+}
+.partners
+{
+    width: 35%;
+}
+.address img
+{
+    width: 100px;
+}
+.address span
+{
+    font-weight: bold;
+}
+.partners img
+{
+    width: 100px;
+    margin-right: 10px;
+}
+.copyright
+{
+    width: 100%;
+    height: 50px;
+    background-color: #EE4248;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:1000px) {
+    .footer-container
+    {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 0px 20px;
+    }
+    .colmn
+    {
+    width: 100%;
+    margin-bottom: 10px;
+    }
+}

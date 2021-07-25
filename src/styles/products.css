@@ -1,0 +1,59 @@
+.products
+{
+    width: 100%;
+    padding: 50px 100px;
+    margin-bottom: 30px;
+}
+.products h2
+{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.cards-container
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.cards
+{
+    width: 25%;
+}
+.cards img
+{
+    width: 30%;
+}
+.cards h3
+{
+    color: #EE4248;
+}
+.cards button
+{
+    width: 100px;
+    height: 30px;
+    border: none;
+    color: white;
+    text-align: center;
+    background-color: #EE4248;
+}
+@media screen and (max-width:1000px){
+    .products
+    {
+        width: 100%;
+        padding: 30px 10px;
+        margin-bottom: 30px;
+    }
+    .cards
+    {
+    text-align: center;    
+    width: 80%;
+    margin-bottom: 25px;
+    }
+.cards img
+{
+    width: 30%;
+}
+    
+}
